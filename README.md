@@ -1,12 +1,54 @@
-# React + Vite
+# 🏛️ IIMM Ayodhya Branch – React Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive and modular website built using **React.js** and **Bootstrap** to showcase the newly established **Ayodhya Branch of the Indian Institute of Materials Management (IIMM)**. The website serves as a platform to inform, engage, and invite professionals and students to participate in the institute’s growth initiatives.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
 
-## Expanding the ESLint configuration
+- 🔹 Responsive layout using Bootstrap  
+- 🔹 Clean UI with card-based layout and image sliders  
+- 🔹 Modular React components for easy scalability  
+- 🔹 Priority information sections for users  
+- 🔹 Interactive footer with contact details  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📁 Folder & File Structure
+
+```bash
+iimm-ayodhya/
+├── public/
+│   └── index.html               # Base HTML file
+│
+├── src/
+│   ├── assets/                  # Images, icons, and logos
+│   │   └── ...                  
+│   |
+│   ├── components/              # Reusable UI components
+│   │   ├── Announce.js          # Announcement section
+│   │   ├── Card.js              # Card component for main content
+│   │   ├── Card2.js             # Additional card section
+│   │   ├── Card3.js
+│   │   ├── Card4.js
+│   │   ├── Card5.js
+│   │   ├── CardSlider.js        # Horizontal scroll card carousel
+│   │   ├── CardSlider1.js
+│   │   ├── Footer.js            # Footer section
+│   │   ├── Head.js              # Head section
+│   │   ├── Header.js            # Top hero section
+│   │   ├── NameCard.js
+│   │   ├── Navbar.js            # Top navigation bar
+│   │   └── Slider.js            # Main image slider
+│   |
+│   ├── pages/
+│   │   └── Home.js              # Home page layout combining all components
+│   |
+│   ├── App.jsx                  # Root component
+│   ├── main.jsx                 # React DOM entry point
+│   └── index.css                # Global styles
+│
+├── .gitignore
+├── package.json
+├── README.md                    # You're reading this 😊
+└── vite.config.js               # Vite config file

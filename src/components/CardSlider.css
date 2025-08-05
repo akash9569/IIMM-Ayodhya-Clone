@@ -1,0 +1,38 @@
+/* Zoom effect on image */
+.zoom-img {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.1s ease;
+  border-bottom: 1px solid #eee;
+}
+
+.zoom-img:hover {
+  transform: scale(1.1);
+}
+
+/* For consistent image container size */
+.course-img-wrapper {
+  overflow: hidden;
+}
+
+/* Responsive text adjustment */
+.course-title {
+  font-size: 1rem;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  text-align: justify;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .course-title {
+    font-size: 0.9rem;
+  }
+  .card-text {
+    font-size: 0.85rem;
+  }
+}
